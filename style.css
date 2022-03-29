@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.letra-bingo {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #8965e0;
+    color: #ffffff;
+}
+
+.bingo-app {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-letra {
+    width: 20%;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 5px solid #2dce89;
+}
+
+.numeros {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color:  gray;
+    font-size: 25px;
+}
+
+.contenedor-controles {
+    width: 500px;
+    margin: 30px auto;
+}
+
+button {
+    width: 50px;
+}
+
